@@ -49,7 +49,7 @@ class BaseDatos {
             fechaHora TEXT,
             observaciones TEXT,
             estado TEXT, 
-            cobrado INTEGER,  -- Cambio de tipo de dato a INTEGER para cobrado
+            cobrado INTEGER,  
             FOREIGN KEY(clienteId) REFERENCES clientes(cedula)
           );
         ''');
